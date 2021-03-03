@@ -16,7 +16,7 @@ def countdown_with_sleep(time)
     timer += 1
     time -= 1 
   end
-  pry.binder
+  binding.pry
   while time > 0 
     time -= 1 
     puts "#{time} SECOND(S)!"
