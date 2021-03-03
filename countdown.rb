@@ -8,3 +8,6 @@ def countdown(seconds)
   end
   new_year
 end
+
+def countdown_with_sleep
+end
