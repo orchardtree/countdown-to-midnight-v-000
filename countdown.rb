@@ -12,10 +12,10 @@ end
 def countdown_with_sleep(time)
   new_year = "HAPPY NEW YEAR!"
   timer = 0
-  binding.pry
   while timer <= 5
     timer += 1
     time -= 1 
+    binding.pry
   end
 
   while time > 0 
