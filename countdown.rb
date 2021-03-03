@@ -11,7 +11,7 @@ end
 
 def countdown_with_sleep(time)
   while time < 5 
-    time += 1
+    time -= 1
   end
   binding.pry
 end
