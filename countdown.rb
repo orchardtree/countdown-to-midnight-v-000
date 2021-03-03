@@ -15,5 +15,4 @@ def countdown_with_sleep(time)
     time -= 1
     timer += 1
   end
-  #binding.pry
 end
