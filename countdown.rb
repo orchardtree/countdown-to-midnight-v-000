@@ -10,11 +10,5 @@ def countdown(time)
 end
 
 def countdown_with_sleep(time)
-  timer = 0
-  while timer < 5 
-    time -= 1
-    timer += 1
-    false
-  end
-  true
+
 end
