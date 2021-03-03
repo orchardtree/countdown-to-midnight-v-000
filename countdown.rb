@@ -17,6 +17,5 @@ def countdown_with_sleep(time)
   end
   while time > 0
     time -= 1
-    binder.pry
   end
 end
