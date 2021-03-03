@@ -10,10 +10,7 @@ def countdown(time)
 end
 
 def countdown_with_sleep(time)
-  sleep_timer = 0
-  while sleep_timer < 5
-    sleep_timer += 1
-  end
+  sleep(5)
   while time > 0
     time -= 1
   end
