@@ -10,13 +10,11 @@ def countdown(time)
 end
 
 def countdown_with_sleep(time)
-  timer = 0
-  while timer < 5
-    timer += 1
-    binding.pry
+  sleep_timer = 0
+  while sleep_timer < 5
+    sleep_timer += 1
   end
   while time > 0
     time -= 1
-    binding.pry
   end
 end
